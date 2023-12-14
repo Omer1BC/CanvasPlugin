@@ -12,7 +12,7 @@ Unzip the project, and this should create a new folder with the unzipped content
 
 <img width="959" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/a32a6e19-bf4c-452e-8234-822290178dc3">
 
-Navigate to the unzipped folder and click select folder once your at this level with the following 2 sub-directories
+Navigate to the unzipped folder and click select folder once your at this level with the following 2 sub-directories:
 
 <img width="367" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/4b61d851-6cd6-4109-878a-50287e4bddb6">
 
@@ -38,14 +38,14 @@ Currently, the plugin is tied to the Canvas websites, but you may optionally rem
 <img width="306" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/1cdddc6e-c8a7-403b-a87f-2bd08712e40a">
 
 
-With the server running in the background, start up the plugin and navigate to the 'Login' tab. Submit a text file representing your Piazza username, password, and OpenAI API key in 3 seperate lines. Ensure that there are not trailing spaces. 
+With the server running in the background, start up the plugin and navigate to the 'Login' tab. Submit a text file representing your Piazza username, password, and OpenAI API key in 3 seperate lines. Ensure that there are no trailing spaces. 
 
 <img width="392" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/c406f895-3410-4d42-b65a-ff39a5e74d79">
 
 In the 'Analyze' tab, find a suitable post number and number of comments to analyze. Then give a prompt for ChatGPT to consider.
 <img width="228" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/a196856a-54f9-41a5-8928-b39d63da4917"><img width="242" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/47ae5af5-914a-498c-8658-d1e2f046e8fd">
 
-After waiting a few seconds for the response, you'll have the option to download it as a file. You may encounter red text errors below the submit button. If an error occurs relating to credentials, click out of the plugin, start it up again, go to login, and submit the corrected file.
+After waiting a few seconds for the response, you'll have the option to download it as a file. You may encounter red text errors below the submit button. If an error occurs relating to credentials, click out of the plugin, start it up again, go to Login, and submit the corrected file.
 The script being executed is `piazzaScript.py`.
 
 ## CSV Analysis
