@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PluginDemo</title>
+    <script src="srcfile.js"></script>
+    <link href="format.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="border" >
+        <h1>Canvas Tools</h1>
+        <div class="tabs">
+            <input type="radio" class="tabs_radio" name="tabs_example" id="tab1" checked>
+            <label for="tab1" class="tabs_label">Login</label>
+            <div class="tabs_content" >
+                <div class="tab1_hdr">Submit login for Piazza and Openai api key in 3 seperated lines as a text file</div>
+                <input class="custom" type="file" id="fileInput" placeholder="login information"/>
+            </div>
+            <input type="radio" class="tabs_radio" name="tabs_example" id="tab2">
+            <label for="tab2" class="tabs_label">Analyze</label>
+            <div class="tabs_content" id="tab2_content">
+                <div class="set">
+                    <input class="input" type="number" id="id" placeholder="Enter post number offset"/>
+                    <input class="input" type="number" id="nPosts" placeholder="Number of posts to analyze"/>
+                </div>
+
+                <div class="set">
+                    <button class="button" id="register">Submit</button>
+                </div>
+                <input class="input" type="text" id="stimulus" placeholder="Prompt"/>
+                <input class="input" type="string" id="response" placeholder="Response"/>
+                <p class="error" id="error"></p>
+            </div>
+            <input type="radio" class="tabs_radio" name="tabs_example" id="tab3" checked>
+            <label for="tab3" class="tabs_label">CSV Analysis</label>
+            <div class="tabs_content" id="tab3_content" >
+                <div class="tab1_hdr">Submit Template and Test File</div>
+                <input class="custom" type="file" id="fileInput2" placeholder="Template File"/>
+                <input class="custom" type="file" id="fileInput3" placeholder="Test File"/>
+                <button class="button" id="processCsv">Process</button>
+                <p class="error" id="error2"></p>
+            </div>
+    </div>
+    </div>
+
+
+</body>
+</html>

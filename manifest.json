@@ -1,0 +1,18 @@
+{
+    "name": "Plugin",
+    "version": "2.0",
+    "manifest_version":2,
+    "permissions": ["storage", "tabs"],
+    "host_permissions": ["https://canvas.vt.edu/*"],
+    "description": "Demo extension",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["*://canvas.vt.edu/*"],
+          "js": ["srcfile.js"]
+        }
+      ]
+}

@@ -1,0 +1,4 @@
+﻿Command,ID,Initial Due Date,Offset,Next Date,Assignment Name,Points,Group,Description,Display Grade As,Count for Final Grade,Submission Type,Moderated Grading,Anonymous Grading,Number of Attempts,From,Until,Peer Reviews,Group Assignment
+crn,n,x,n,next = initial + offset: auto,"""existingName""",x,x,x,x,x,x,x,x,x,x,x,x,x
+pid,n,x,n,next = Initial + offset,"""existingName""",x,x,x,x,x,x,x,x,x,x,x,x,x
+new,x,"""12/12/1212""",x,x,"""newName""",n,"""groupName""","""newName""","""Points""","""true/false""","""options""","""true/false""","""true/false""",n:-1 for unlimited,"""12/12/1212""","""12/12/1212""","""true/false""","""true/false"""
