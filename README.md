@@ -32,6 +32,7 @@ Load the unzipped file into an IDE like VSCode (a simple drag and drop). Verify 
 
 ##  Login and Analysis
 Currently, the plugin is tied to the Canvas websites, but you may optionally remove this line of code in the `manifest.json` file. Then, visit chrome://extensions and refresh the plugin by clicking the winding arrow for the changes to take effect.
+
 <img width="248" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/da54a357-d43f-4079-a9b3-1f869b347050">
 
 <img width="306" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/1cdddc6e-c8a7-403b-a87f-2bd08712e40a">
