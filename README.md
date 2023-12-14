@@ -31,6 +31,12 @@ Load the unzipped file into an IDE like VSCode (a simple drag and drop). Verify 
 <img width="89" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/1c0e924f-3e5e-419d-86d8-fd04bdec8a5a">
 
 ##  Login and Analysis
+Currently, the plugin is tied to the Canvas websites, but you may optionally remove this line of code in the `manifest.json` file. Then, visit chrome://extensions and refresh the plugin by clicking the winding arrow for the changes to take effect.
+<img width="248" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/da54a357-d43f-4079-a9b3-1f869b347050">
+
+<img width="306" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/1cdddc6e-c8a7-403b-a87f-2bd08712e40a">
+
+
 With the server running in the background, start up the plugin and navigate to the 'Login' tab. Submit a text file representing your Piazza username, password, and OpenAI API key in 3 seperate lines. Ensure that there are not trailing spaces. 
 
 <img width="392" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/c406f895-3410-4d42-b65a-ff39a5e74d79">
@@ -38,8 +44,8 @@ With the server running in the background, start up the plugin and navigate to t
 In the 'Analyze' tab, find a suitable post number and number of comments to analyze. Then give a prompt for ChatGPT to consider.
 <img width="228" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/a196856a-54f9-41a5-8928-b39d63da4917"><img width="242" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/47ae5af5-914a-498c-8658-d1e2f046e8fd">
 
-After waiting a few seconds for the response, you'll have the option to download it as a file.
-The script being executed is `piazzaScript.py`and it can be tested individually by following the comments to find the argument format.
+After waiting a few seconds for the response, you'll have the option to download it as a file. You may encounter red text errors below the submit button. If an error occurs relating to credentials, click out of the plugin, start it up again, go to login, and submit the corrected file.
+The script being executed is `piazzaScript.py`.
 
 ## CSV Analysis
 The third tab is curently non-functional, but the script can be tested individually. You are provided `template.csv` and `test.csv`. Execute this using  `python parserScript.py template.csv test.csv`. The first file represnts a list of commands and their expected argument. Any 'x' means that no argument is expected for that column for a particular command, n is a number, and everything else is a useful string that describes how to interpret the value. The second file is a dummy file is parsed following the template file, where erros are displayed.
