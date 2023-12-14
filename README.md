@@ -8,7 +8,7 @@ First, visit https://github.com/Omer1BC/canvasPlugin/tree/master and fork the pr
  
  <img width="246" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/f1b0c0ac-4857-441e-8849-d0d0e6fa2e11">
 
-Unzip the project, and this should create a new folder with the unzipped contents. Visit chrome://extensions/ and enable developer mode if it’s unticked. Look for the 'load unpacked' option.
+Unzip the project, and this should create a new folder with the unzipped contents. Visit chrome://extensions and enable developer mode if it’s unticked. Look for the 'load unpacked' option.
 
 <img width="959" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/a32a6e19-bf4c-452e-8234-822290178dc3">
 
@@ -31,7 +31,7 @@ Load the unzipped file into an IDE like VSCode (a simple drag and drop). Verify 
 <img width="89" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/1c0e924f-3e5e-419d-86d8-fd04bdec8a5a">
 
 ##  Login and Analysis
-With the server running in the background, start up the plugin and navigate to the 'Login' tab. Submit a text file representing your your Piazza username, password, and OpenAI API key in 3 seperate lines. Ensure that there are not trailing spaces. 
+With the server running in the background, start up the plugin and navigate to the 'Login' tab. Submit a text file representing your Piazza username, password, and OpenAI API key in 3 seperate lines. Ensure that there are not trailing spaces. 
 
 <img width="392" alt="image" src="https://github.com/Omer1BC/canvasPlugin/assets/108303028/c406f895-3410-4d42-b65a-ff39a5e74d79">
 
@@ -41,5 +41,5 @@ In the 'Analyze' tab, find a suitable post number and number of comments to anal
 After waiting a few seconds for the response, you'll have the option to download it as a file.
 The script being executed is `piazzaScript.py`and it can be tested individually by following the comments to find the argument format.
 
-## ParserScript.py
-The 
+## CSV Analysis
+The third tab is curently non-functional, but the script can be tested individually. You are provided `template.csv` and `test.csv`. Execute this using  `python parserScript.py template.csv test.csv`. The first file represnts a list of commands and their expected argument. Any 'x' means that no argument is expected for that column for a particular command, n is a number, and everything else is a useful string that describes how to interpret the value. The second file is a dummy file is parsed following the template file, where erros are displayed.
